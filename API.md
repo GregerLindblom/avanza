@@ -318,6 +318,7 @@ Get recent deals and orders.
 | Property    | Type   | Note |
 | :---------- | :----- | ---- |
 | `account`   | Object |      |
+| `amount`    | Number |      |
 | `dealId`    | String |      |
 | `dealTime`  | String |      |
 | `orderbook` | Object |      |
@@ -539,6 +540,7 @@ Get orderbook information.
 | `orderbook`              | Object  |      |
 | `orderDepthLevels`       | Array   |      |
 | `orderDepthReceivedTime` | String  |      |
+| `suitability`            | Object  |      |
 | `tickSizeRules`          | Array   |      |
 | `untradableDates`        | Array   |      |
 
